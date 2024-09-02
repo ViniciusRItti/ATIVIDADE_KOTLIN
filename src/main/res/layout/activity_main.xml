@@ -7,52 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="354dp"
+        android:layout_width="411dp"
+        android:layout_height="474dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="2dp">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Qual sua Idade? " />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp">
 
         <EditText
-            android:id="@+id/edidade"
+            android:id="@+id/editTextIdade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number" />
 
         <Button
-            android:id="@+id/btnidade"
+            android:id="@+id/buttonVerificar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="verificar idade" />
+            android:layout_height="61dp"
+            android:text="Button" />
 
         <TextView
-            android:id="@+id/txtresultado"
+            android:id="@+id/textViewResultado"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/btnLimpar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="limparValores"
-            android:text="Limpar" />
+            android:layout_height="53dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
